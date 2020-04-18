@@ -44,7 +44,8 @@ public class HomePage extends Base {
 		
 		lp.clickLogin().click();
 		
-		log.info("successfully logged in");
+		log.info("able to successfully logged in");
+		System.out.println("hello");
 	}
 	
 	@DataProvider
