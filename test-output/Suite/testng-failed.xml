@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="TestCases.listeners"/>
+    <listener class-name="Resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="validatelinks(failed)" parallel="tests">
+    <classes>
+      <class name="TestCases.validateCourses">
+        <methods>
+          <include name="clouser"/>
+          <include name="validatecourselinks"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestCases.validateCourses -->
+    </classes>
+  </test> <!-- validatelinks(failed) -->
+</suite> <!-- Failed suite [Suite] -->

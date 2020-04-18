@@ -1,0 +1,5 @@
+TestCases\validatenavigationbar.class
+TestCases\listeners.class
+TestCases\HomePage.class
+TestCases\validateCourses.class
+TestCases\validateTitle.class

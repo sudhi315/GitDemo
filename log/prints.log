@@ -1,0 +1,5 @@
+16:00:29.997 [TestNG-tests-1] INFO  Resources.Base - successfully validated links
+16:02:44.232 [TestNG-tests-1] INFO  Resources.Base - successfully validated text titel
+16:02:45.986 [TestNG-tests-3] INFO  Resources.Base - successfully validated nagigation bar
+16:03:10.576 [TestNG-tests-2] INFO  Resources.Base - successfully logged in
+16:03:18.962 [TestNG-tests-4] INFO  Resources.Base - successfully validated links

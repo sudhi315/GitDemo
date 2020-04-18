@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66173" started-at="2020-04-17T10:32:12Z" finished-at="2020-04-17T10:33:18Z">
+    <groups>
+    </groups>
+    <test name="validateTitle" duration-ms="35659" started-at="2020-04-17T10:32:12Z" finished-at="2020-04-17T10:32:48Z">
+      <class name="TestCases.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestCases.validateTitle@1a482e36]" name="initialize" is-config="true" duration-ms="29165" started-at="2020-04-17T16:02:12Z" finished-at="2020-04-17T16:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="featuretitle()[pri:0, instance:TestCases.validateTitle@1a482e36]" name="featuretitle" duration-ms="2281" started-at="2020-04-17T16:02:41Z" finished-at="2020-04-17T16:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- featuretitle -->
+        <test-method status="PASS" signature="clouser()[pri:0, instance:TestCases.validateTitle@1a482e36]" name="clouser" is-config="true" duration-ms="4205" started-at="2020-04-17T16:02:44Z" finished-at="2020-04-17T16:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clouser -->
+      </class> <!-- TestCases.validateTitle -->
+    </test> <!-- validateTitle -->
+    <test name="validatenavigationbar" duration-ms="35892" started-at="2020-04-17T10:32:12Z" finished-at="2020-04-17T10:32:48Z">
+      <class name="TestCases.validatenavigationbar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestCases.validatenavigationbar@34a3d150]" name="initialize" is-config="true" duration-ms="32849" started-at="2020-04-17T16:02:12Z" finished-at="2020-04-17T16:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="navbar()[pri:0, instance:TestCases.validatenavigationbar@34a3d150]" name="navbar" duration-ms="344" started-at="2020-04-17T16:02:45Z" finished-at="2020-04-17T16:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbar -->
+        <test-method status="PASS" signature="clouser()[pri:0, instance:TestCases.validatenavigationbar@34a3d150]" name="clouser" is-config="true" duration-ms="2695" started-at="2020-04-17T16:02:45Z" finished-at="2020-04-17T16:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clouser -->
+      </class> <!-- TestCases.validatenavigationbar -->
+    </test> <!-- validatenavigationbar -->
+    <test name="HomePage" duration-ms="58545" started-at="2020-04-17T10:32:12Z" finished-at="2020-04-17T10:33:11Z">
+      <class name="TestCases.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestCases.HomePage@3023df74]" name="initialize" is-config="true" duration-ms="26636" started-at="2020-04-17T16:02:12Z" finished-at="2020-04-17T16:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basehomepagenavigationn(java.lang.String, java.lang.String)[pri:0, instance:TestCases.HomePage@3023df74]" name="basehomepagenavigationn" duration-ms="31076" started-at="2020-04-17T16:02:39Z" data-provider="getData" finished-at="2020-04-17T16:03:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basehomepagenavigationn -->
+        <test-method status="PASS" signature="clouser()[pri:0, instance:TestCases.HomePage@3023df74]" name="clouser" is-config="true" duration-ms="759" started-at="2020-04-17T16:03:10Z" finished-at="2020-04-17T16:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clouser -->
+      </class> <!-- TestCases.HomePage -->
+    </test> <!-- HomePage -->
+    <test name="validatelinks" duration-ms="66170" started-at="2020-04-17T10:32:12Z" finished-at="2020-04-17T10:33:18Z">
+      <class name="TestCases.validateCourses">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestCases.validateCourses@7c7b252e]" name="initialize" is-config="true" duration-ms="31454" started-at="2020-04-17T16:02:12Z" finished-at="2020-04-17T16:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validatecourselinks()[pri:0, instance:TestCases.validateCourses@7c7b252e]" name="validatecourselinks" duration-ms="34713" started-at="2020-04-17T16:02:44Z" finished-at="2020-04-17T16:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecourselinks -->
+      </class> <!-- TestCases.validateCourses -->
+    </test> <!-- validatelinks -->
+  </suite> <!-- Suite -->
+</testng-results>
